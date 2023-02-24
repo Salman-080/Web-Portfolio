@@ -4,7 +4,7 @@ body{
 
 
 h1{
-    font-size: 60px;;
+    font-size: 60px;
 }
 
 .n-highlight{
@@ -32,7 +32,8 @@ h1{
 }
 
 section{
-    height: 100px;
+    height: 400px;
+    padding-bottom: 150px;
 }
 
 .button-link{
@@ -43,4 +44,48 @@ section{
     color: white;
     padding: 10px 20px;
     font-weight: 1000;
+}
+
+.middle{
+
+    background-image: url("pictures/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100px;
+    
+    
+}
+
+.box{
+
+    box-shadow: 10px 10px 35px gray;
+    background-color: white;
+}
+
+#l-box{
+
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#r-box{
+
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.bottom{
+
+    background-image: url("pictures/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 15px;
 }
