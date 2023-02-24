@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+}
+
+
+h1{
+    font-size: 60px;;
+}
+
+.n-highlight{
+
+    color: brown;
+}
+.width-half{
+
+    width: 40%;
+    float: left;
+    padding: 2%;
+    margin-left: 4%;
+    
+}
+
+.width-half img{
+
+    width: 100%;
+}
+
+.top{
+
+    background-image: url("pictures/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 100px;
+}
+
+.button-link{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(35deg, lightsalmon, tomato
+    );
+    color: white;
+    padding: 10px 20px;
+    font-weight: 1000;
+}
